@@ -35,11 +35,14 @@ section {
 .card-header {
     background-color: #23BB86;
     color: #FFFF;
-    text-align: center;
+    text-align: start;
     font-size: 21px;
     border-radius: 15px 15px 0 0 !important;
 }
 
+.card-body h5{
+    padding: 25px 35px 25px 0px;
+}
 .card .card-body-img {
     border-radius: 0 0 15px 15px;
     box-shadow: 0px 4px 15px rgba(62, 135, 27, 0.67);
@@ -51,5 +54,9 @@ section {
     color: #fff;
     border-radius: 20px;
     padding: 2px 50px 2px 50px;
+}
+
+.card-body .line-details{
+    border-bottom: 1px solid;
 }
 /* CARD CSS */

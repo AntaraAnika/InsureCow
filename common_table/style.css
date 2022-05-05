@@ -20,6 +20,7 @@ section {
     padding: 100px;
 }
 
+/* Table */
 .table-style {
     border-radius: 3px;
     box-shadow: rgba(35, 187, 10, 0.40) 0px 3px 8px;
@@ -46,6 +47,7 @@ section {
 .table tbody tr:nth-child(odd) {
     background-color: #f8f7f5;
 }
+/* Table */
 
 @media screen and (max-width: 768px) {
     section {
