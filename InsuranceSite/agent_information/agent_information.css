@@ -16,6 +16,10 @@ html body {
     background: #2F673F;
 }
 
+a{
+    text-decoration: none;
+    color: #082E13;
+}
 
 /* Navbar */
 nav .navbar-nav li a {

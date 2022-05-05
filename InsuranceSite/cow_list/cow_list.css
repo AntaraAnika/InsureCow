@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #082E13;
+}
+
 html body {
     font-family: "Poppins", sans-serif;
     color: #082E13;
@@ -16,10 +21,6 @@ html body {
     background: #2F673F;
 }
 
-section {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-}
 
 /* Navbar */
 nav .navbar-nav li a {
@@ -59,46 +60,16 @@ nav .navbar-nav li a:hover {
     border-radius: 5px;
     padding: 8px 0px;
 }
-
 /* Navbar */
 
 
-/* Middle Content */
-.main-section {
-    margin-bottom: 4rem;
+section {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 78px;
-}
-
-form {
-    box-shadow: 0px 4px 18px rgba(79, 172, 35, 0.5);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.card-header {
-    background-color: #23BB86;
-    color: #ffff;
-    font-size: 22px;
-}
-
-.cow-details .owner,
-.cow-details .species,
-.cow-details .issue-date,
-.cow-details .pdf {
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-.cow-details .pdf > div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    padding: 50px 100px;
 }
 
 /* Table */
@@ -128,9 +99,7 @@ form {
 .table tbody tr:nth-child(odd) {
     background-color: #f8f7f5;
 }
-
 /* Table */
-/* Middle Content */
 
 /* Footer */
 .language-footer {
@@ -145,7 +114,6 @@ form {
     text-decoration-thickness: 2px;
     text-decoration-color: #1D5C2E;
 }
-
 /* Footer */
 
 
@@ -159,13 +127,4 @@ form {
         padding: 6px 0px;
     }
     /* Navbar */
-
-    /* Middle-content */
-    .cow-details .pdf > div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    /* Middle-content */
 }

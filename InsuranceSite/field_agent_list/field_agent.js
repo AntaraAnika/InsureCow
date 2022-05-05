@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     tableData.forEach((e) => {
         html += `
                     <tr>
-                        <td scope="row"><a href="../InsuranceSite/agent_information/agent_information.html">${e.name}</></td>
+                        <td scope="row"><a href="../agent_information/agent_information.html">${e.name}</></td>
                         <td>${e.thana}</td>
                         <td>${e.post}</td>
                         <td>${e.regCattleNumber}</td>
